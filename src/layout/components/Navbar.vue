@@ -16,7 +16,7 @@
               Home
             </el-dropdown-item>
           </router-link>
-          <a target="_blank" href="https://gitee.com/maozilong/vue-admin-simple">
+          <a target="_blank" href="https://github.com/maozilong/vite-admin">
             <el-dropdown-item>Docs</el-dropdown-item>
           </a>
           <el-dropdown-item divided @click.native="logout">
