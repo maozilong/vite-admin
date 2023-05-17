@@ -1,6 +1,6 @@
 export default {
 
-  title: 'Vue Admin Template',
+  title: 'Vite Admin',
 
   /**
    * @type {boolean} true | false
