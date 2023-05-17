@@ -125,7 +125,7 @@ export default {
   ),
   data() {
     return {
-      innerHeight: (window.innerHeight - 222), // table 高度
+      innerHeight: (window.innerHeight - 232), // table 高度
       dialogVisible: false,
       dialogImageUrl: '',
       listLoading: false,
@@ -188,7 +188,7 @@ export default {
     }
   },
   mounted() {
-    console.log('table.created:', this)
+    // console.log('table.created:', this)
     window.addEventListener('resize', this.resize)
   },
   beforeDestroy() {
@@ -270,7 +270,7 @@ export default {
       this.dialogImageUrl = e.target.src
     },
     resize() {
-      this.innerHeight = window.innerHeight - 222
+      this.innerHeight = window.innerHeight - 232
     }
   }
 }
